@@ -1,14 +1,24 @@
 # AppDesporto24
 Aplicação de desporto 
 
-Esta app tem como objetivo uma app que mostre noticias da atualidade desportiva, mostrar equipas e os seus respetivos resultados. Também irá mostrar jogos e tabelas classificativas de diversas ligas, permitindo ao utilizador ter acesso a toda a informação pertendida de uma forma rápida e eficaz.
+Esta app tem como objetivo uma app que mostre noticias da atualidade desportiva. Esta app será capaz de mostrar as noticias de qualquer desporto e ainda mostrar mais dentro de cada seleção. Permitindo ao utilizador ter acesso a toda a informação pertendida de uma forma rápida e eficaz.
+Como exemplo, quando o utilizador aceder ao tópico "Futebol", o utilizador poderá verificar as noticias, equipas, jogos e classificações das mais diversas ligas, podendo assim ter toda a informação que precisa à distancia de um clique.
 
-Para a criação desta app, iremos necessitar de usar 4 tabelas:
+Para a criação desta app, iremos necessitar de usar 7 tabelas:
 
 -> Tabela de noticias;
 
--> Tabela de equipas;
+-> Tabela de desportos;
 
--> Tabela de jogos;
+-> Tabela Futebol;
 
--> Tabela de classificações;
+-> Tabela Tênis;
+
+-> Tabela Futsal;
+
+-> Tabela Hóquei;
+
+-> Tabela Andebol;
+
+Cada tabela terá a informação necessaria realtiva a cada desporto!
+
