@@ -22,3 +22,5 @@ Para a criação desta app, iremos necessitar de usar 7 tabelas:
 
 Cada tabela terá a informação necessaria realtiva a cada desporto!
 
+Para um melhor entendimento fica aqui o modelo das tabelas:
+
