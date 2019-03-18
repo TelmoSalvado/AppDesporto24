@@ -24,3 +24,6 @@ Cada tabela terá a informação necessaria realtiva a cada desporto!
 
 Para um melhor entendimento fica aqui o modelo das tabelas:
 
+![alt text](https://github.com/TelmoSalvado/AppDesporto24/blob/master/Sem%20T%C3%ADtulo.png)
+
+Nota: As tabelas podem sofrer alterações durante o desenvolvimento da app!
