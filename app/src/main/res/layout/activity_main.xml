@@ -6,13 +6,76 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/Futebol"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="zonaFutebol"
+        android:text="Futebol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Futsal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="zonaFutsal"
+        android:text="Futsal"
+        app:layout_constraintStart_toEndOf="@+id/Futebol"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Andebol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="16dp"
+        android:onClick="zonaAndebol"
+        android:text="Andebol"
+        app:layout_constraintStart_toEndOf="@+id/Futsal"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Hoquei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:onClick="zonaHoquei"
+        android:text="Hóquei"
+        app:layout_constraintStart_toEndOf="@+id/Tenis"
+        app:layout_constraintTop_toBottomOf="@+id/Futsal" />
+
+    <Button
+        android:id="@+id/Tenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:onClick="zonaTenis"
+        android:text="Tênis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Futebol" />
+
+    <Button
+        android:id="@+id/Noticias"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:onClick="zonaNoticias"
+        android:text="Noticias"
+        app:layout_constraintStart_toEndOf="@+id/Hoquei"
+        app:layout_constraintTop_toBottomOf="@+id/Andebol" />
 
 </android.support.constraint.ConstraintLayout>
