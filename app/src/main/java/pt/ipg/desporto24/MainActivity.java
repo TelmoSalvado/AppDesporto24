@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     public void zonaHoquei(View view){
         Toast.makeText(this, "Zona de Hoquei em desenvolvimento!! Nesta Zona irás ter acesso a todas as novidades do Hoquei!!",
                 Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, Hoquei.class);
+        startActivity(intent);
 
     }
     public void zonaAndebol(View view){
@@ -46,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
     public void zonaNoticias(View view){
         Toast.makeText(this, "Zona de Noticias em desenvolvimento!! Aqui poderás aceder a todas as noticias do mundo do desporto!!",
                 Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, Noticias.class);
+        startActivity(intent);
 
     }
 }
