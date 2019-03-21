@@ -12,4 +12,6 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_main2_futebol">Main2Futebol</string>
+    <string name="title_activity_main2_tenis">Main2Tenis</string>
+    <string name="title_activity_futebol">Futebol</string>
 </resources>

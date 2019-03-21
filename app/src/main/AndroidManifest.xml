@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Futebol"
+            android:label="@string/title_activity_futebol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pt.ipg.desporto24.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Main2Tenis"
+            android:label="@string/title_activity_main2_tenis"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pt.ipg.desporto24.MainActivity" />
+        </activity>
+        <activity
             android:name=".Main2Futebol"
             android:label="@string/title_activity_main2_futebol"
             android:parentActivityName=".MainActivity"
