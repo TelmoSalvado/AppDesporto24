@@ -1,5 +1,6 @@
 package pt.ipg.desporto24;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void zonaFutebol(View view){
         Toast.makeText(this, "Zona de Futebol em desenvolvimento!! Nesta Zona irás ter acesso a todas as novidades do Futebol!!",
                 Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, Main2Futebol.class);
         
     }
     public void zonaFutsal(View view){
