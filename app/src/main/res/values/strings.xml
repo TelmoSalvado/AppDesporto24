@@ -18,4 +18,5 @@
     <string name="title_activity_futsal">Futsal</string>
     <string name="title_activity_hoquei">Hóquei</string>
     <string name="title_activity_noticias">Noticias</string>
+    <string name="title_activity_andebol">Andebol</string>
 </resources>

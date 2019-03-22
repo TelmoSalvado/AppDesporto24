@@ -14,39 +14,41 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void zonaFutebol(View view){
-        Toast.makeText(this, "Zona de Futebol em desenvolvimento!! Nesta Zona irás ter acesso a todas as novidades do Futebol!!",
+        Toast.makeText(this, "Acedeu à zona do Futebol.",
                 Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, Futebol.class);
         startActivity(intent);
     }
     public void zonaFutsal(View view){
-        Toast.makeText(this, "Zona de Futsal em desenvolvimento!! Nesta Zona irás ter acesso a todas as novidades do Futsal!!",
+        Toast.makeText(this, "Acedeu à zona do Futsal.",
                 Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, Futsal.class);
         startActivity(intent);
 
     }
     public void zonaHoquei(View view){
-        Toast.makeText(this, "Zona de Hoquei em desenvolvimento!! Nesta Zona irás ter acesso a todas as novidades do Hoquei!!",
+        Toast.makeText(this, "Acedeu à zona do Hóquei.",
                 Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, Hoquei.class);
         startActivity(intent);
 
     }
     public void zonaAndebol(View view){
-        Toast.makeText(this, "Zona de Andebol em desenvolvimento!! Nesta Zona irás ter acesso a todas as novidades do Andebol!!",
+        Toast.makeText(this, "Acedeu à zona do Andebol.",
                 Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, Andebol.class);
+        startActivity(intent);
 
     }
     public void zonaTenis(View view){
-        Toast.makeText(this, "Zona de Tenis em desenvolvimento!! Nesta Zona irás ter acesso a todas as novidades do Tenis!!",
+        Toast.makeText(this, "Acedeu à zona do Ténis.",
                 Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, Tenis.class);
         startActivity(intent);
 
     }
     public void zonaNoticias(View view){
-        Toast.makeText(this, "Zona de Noticias em desenvolvimento!! Aqui poderás aceder a todas as noticias do mundo do desporto!!",
+        Toast.makeText(this, "Acedeu à zona das Noticias.",
                 Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, Noticias.class);
         startActivity(intent);
